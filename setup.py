@@ -9,17 +9,17 @@ version_line = [line for line in open(module_path)
 __version__ = version_line.split('__version__ = ')[-1][1:][:-2]
 
 setuptools.setup(
-    name="flask-restplus-patched",
+    name="flask-restplus-patched-aher93",
     version=__version__,
-    url="https://github.com/Jaza/flask-restplus-patched",
+    url="https://github.com/aher93/flask-restplus-patched",
 
-    author="Jeremy Epstein",
-    author_email="jazepstein@gmail.com",
+    author="Aden Herold",
+    author_email="aden.herold1@gmail.com",
 
     description="Extends Flask-RESTplus so it can handle Marshmallow schemas and Webargs arguments.",
     long_description=open('README.rst').read(),
 
-    packages=['flask_restplus_patched'],
+    packages=['flask_restplus_patched-aher93'],
     include_package_data=True,
     zip_safe=False,
     platforms='any',
